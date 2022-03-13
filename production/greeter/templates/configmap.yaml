@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  creationTimestamp: null
-  name: "{{ .Values.chartName }}-config"
-data:
-  port: "{{ .Values.config.port }}" 
-  greeting: {{ .Values.config.greeting }}
