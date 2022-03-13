@@ -1,0 +1,15 @@
+
+
+chartName: greeting-app
+
+deployment: 
+  replicaCount: 1
+  image: ghcr.io/rallinator7/greeter-app
+  tag: 37c9543
+
+config:
+  port: 8000 #should be the same as deployment port
+  greeting: Hello
+
+ingress:
+  rule: PathPrefix(`/stage`)
