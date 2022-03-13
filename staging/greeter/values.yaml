@@ -1,4 +1,4 @@
-greeter:
+greeting-app:
   chartName: greeting-app
   deployment: 
     replicaCount: 1
