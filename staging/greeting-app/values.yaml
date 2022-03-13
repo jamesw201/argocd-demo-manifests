@@ -3,7 +3,7 @@ greeting-app:
   deployment: 
     replicaCount: 1
     image: ghcr.io/rallinator7/greeter-app
-    tag: 37c9543
+    tag: 7b0245f
   config:
     port: 8000
     greeting: Hello
