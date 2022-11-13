@@ -2,7 +2,7 @@ greeting-app:
   chartName: greeting-app
   deployment: 
     replicaCount: 1
-    image: ghcr.io/rallinator7/greeter-app
+    image: 3d-testkube-registry:6000/greeter:latest
     tag: 7b0245f
   config:
     port: 8000
